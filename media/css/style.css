@@ -1,0 +1,76 @@
+.com_laogoal_widget {
+	width: 98%;
+}
+
+.com_laogoal_show-standings,
+.com_laogoal_show-matches {
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+.com_laogoal_league .com_laogoal_flag {
+	background-color: transparent;
+	background-position: center left;
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 23px;
+}
+
+.com_laogoal_league_rus_pl .com_laogoal_flag {
+	background-image: url(../images/flags/1/ru.gif);
+}
+.com_laogoal_league_eng_pl .com_laogoal_flag,
+.com_laogoal_league_eng_cs .com_laogoal_flag {
+	background-image: url(../images/flags/1/en.gif);
+}
+.com_laogoal_league_ita_sa .com_laogoal_flag,
+.com_laogoal_league_ita_sb .com_laogoal_flag {
+	background-image: url(../images/flags/1/it.gif);
+}
+.com_laogoal_league_spa_ll .com_laogoal_flag,
+.com_laogoal_league_spa_sd .com_laogoal_flag {
+	background-image: url(../images/flags/1/es.gif);
+}
+.com_laogoal_league_ger_bl .com_laogoal_flag,
+.com_laogoal_league_ger_b2 .com_laogoal_flag {
+	background-image: url(../images/flags/1/de.gif);
+}
+.com_laogoal_league_fra_l1 .com_laogoal_flag,
+.com_laogoal_league_fra_l2 .com_laogoal_flag {
+	background-image: url(../images/flags/1/fr.gif);
+}
+.com_laogoal_league_neth_ed .com_laogoal_flag,
+.com_laogoal_league_neth_d2 .com_laogoal_flag {
+	background-image: url(../images/flags/1/nl.gif);
+}
+.com_laogoal_league_por_li .com_laogoal_flag {
+	background-image: url(../images/flags/1/pt.gif);
+}
+.com_laogoal_league_bel_ek .com_laogoal_flag {
+	background-image: url(../images/flags/1/be.gif);
+}
+.com_laogoal_league_sco_pl .com_laogoal_flag {
+	background-image: url(../images/flags/1/sco.gif);
+}
+.com_laogoal_league_gre_pl .com_laogoal_flag {
+	background-image: url(../images/flags/1/gr.gif);
+}
+.com_laogoal_league_ukr_pl .com_laogoal_flag {
+	background-image: url(../images/flags/1/ua.gif);
+}
+.com_laogoal_league_turk_pl .com_laogoal_flag {
+	background-image: url(../images/flags/1/tr.gif);
+}
+.com_laogoal_league_den_sl .com_laogoal_flag {
+	background-image: url(../images/flags/1/dk.gif);
+}
+.com_laogoal_league_ucl .com_laogoal_flag {
+	background-image: url(../images/flags/1/ucl.png);
+}
+.com_laogoal_league_cuefa .com_laogoal_flag {
+	background-image: url(../images/flags/1/uel.png);
+}
+.com_laogoal_league_bra_sa .com_laogoal_flag {
+	background-image: url(../images/flags/1/br.gif);
+}

@@ -1,0 +1,100 @@
+.com_laogoal_matches table {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.com_laogoal_match_item.even {
+	background-color: #fafafa;
+}
+
+.com_laogoal_matches .com_laogoal_flag {
+	height: 20px;
+	line-height: 20px;
+}
+
+.com_laogoal_matches td {
+	white-space: nowrap;
+}
+
+.com_laogoal_matches .com_laogoal_match_c a, .com_laogoal_matches .com_laogoal_match_c a:hover {
+	text-decoration: none !important;
+}
+
+.com_laogoal_matches .com_laogoal_begintime {
+	width: 1px;
+	overflow: visible;
+	white-space: nowrap;
+	padding-right: 10px;
+}
+
+.com_laogoal_matches .com_laogoal_match_c {
+	text-align: center;
+}
+
+.com_laogoal_matches .com_laogoal_match_c span {
+	display: block;
+	float: left;
+}
+
+.com_laogoal_matches .com_laogoal_match_c .com_laogoal_match_result {
+	font-weight: bolder;
+	color: #444;
+	width: 10%;
+}
+
+.com_laogoal_matches td {
+	border-top: 1px solid #eee;
+	text-align: left;
+}
+
+.com_laogoal_matches th {
+	text-align: left;
+	font-weight: normal;
+}
+
+.com_laogoal_matches .com_laogoal_status_active .com_laogoal_match_status {
+	background: url(../images/apos.gif) no-repeat 0 6px ;
+	padding-left: 9px;
+}
+
+.com_laogoal_matches .com_laogoal_date-separator th {
+	text-align: right;
+}
+
+.com_laogoal_matches .com_laogoal_match_team {
+	width: 45%;
+}
+
+.com_laogoal_matches .com_laogoal_pagination {
+	font-size: 0.9em;
+	width: 100%;
+}
+
+.com_laogoal_matches .com_laogoal_pagination a {
+	text-decoration: none;
+	color: #444;
+}
+.com_laogoal_matches .com_laogoal_pagination ul {
+	text-align: right;
+	width: 100%;
+	float: right;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.com_laogoal_matches .com_laogoal_pagination ul li {
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	white-space: nowrap;
+	margin-left: 20px;
+}
+
+.com_laogoal_match_team1 {
+	text-align: right;
+}
+.com_laogoal_match_team2 {
+	text-align: left;
+}
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+    <name>com_laogoal</name>
+    <author>Murat Erkenov</author>
+    <creationDate>[CREATION_DATE]</creationDate>
+    <copyright>(C)2014 Murat Erkenov. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>murat@11bits.net</authorEmail>
+    <authorUrl>11bits.net</authorUrl>
+    <version>[VERSION]</version>
+    <description>LaoGoal component. Multi-league football results for your site</description>
+    <config>
+        <fields>
+            <fieldset name="com_laogoal_settings" label="COM_LAOGOAL_SETTINGS_LABEL" description="COM_LAOGOAL_SETTINGS_DESC">
+                <field name="lgl_url" type="text" label="COM_LAOGOAL_LGL_URL_LABEL" description="COM_LAOGOAL_LGL_URL_DESC" default="[LGL_URL]"/>
+            </fieldset>
+        </fields>
+    </config>
+    <media folder="media" destination="com_laogoal">
+        <folder>js</folder>
+        <folder>css</folder>
+        <folder>images</folder>
+    </media>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>controller.php</filename>
+        <filename>laogoal.php</filename>
+        <folder>views</folder>
+        <folder>lib</folder>
+        <folder>models</folder>
+    </files>
+
+    <administration>
+    	<menu>com_laogoal</menu>
+        <files folder="admin">
+            <folder>media</folder>
+            <folder>controllers</folder>
+            <folder>views</folder>
+            <filename>laogoal.php</filename>
+            <filename>index.html</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_laogoal.sys.ini</language>
+        </languages>
+    </administration>
+    <updateservers>
+        <server type="extension" name="LaoGoal Updates">[UPDATE_SERVER]</server>
+    </updateservers>
+</extension>

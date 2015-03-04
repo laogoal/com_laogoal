@@ -1,0 +1,52 @@
+.com_laogoal_standings table {
+	width: 98%;
+}
+
+.com_laogoal_standings .com_laogoal_flag {
+	display: inline-block;
+	font-size: 1.1em;
+	line-height: 25px;
+	height: 25px;
+}
+
+.com_laogoal_standings_row.even {
+	background-color: #fafafa;
+}
+
+.com_laogoal_standings table.com_laogoal_standings_group {
+	margin-bottom: 20px;
+}
+
+.com_laogoal_standings thead td {
+	line-height: 25px;
+	height: 25px;
+	font-weight: bolder;
+}
+
+.com_laogoal_standings_row td {
+	white-space: nowrap;
+}
+
+.com_laogoal_standings_row td.com_laogoal_standings_row_position {
+	width: 1px;
+	overflow: visible;
+}
+
+.com_laogoal_standings_row td.com_laogoal_standings_row_points,
+.com_laogoal_standings_row td.com_laogoal_standings_row_matches,
+.com_laogoal_standings_row td.com_laogoal_standings_row_wdl,
+.com_laogoal_standings_row td.com_laogoal_standings_row_goals {
+	text-align: center;
+}
+
+.com_laogoal_standings_row td.com_laogoal_standings_row_team {
+	width: 35%;
+}
+
+.com_laogoal_show-standings,
+.com_laogoal_show-matches {
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+

@@ -1,0 +1,103 @@
+.com_laogoal_match {
+	width: 95%;
+	margin: 30px auto;
+}
+
+.com_laogoal_match .com_laogoal_status_active .com_laogoal_match_status {
+	background: url(../images/apos.gif) no-repeat 0 6px ;
+	padding-left: 9px;
+}
+
+
+.com_laogoal_match_c span {
+	display: inline-block;
+}
+
+.com_laogoal_match_c .com_laogoal_match_team {
+	width: 40%;
+	font: normal 20px Arial, Helvetica, sans-serif;
+	height: 24px;
+}
+
+.com_laogoal_match_c .com_laogoal_match_team1 {
+	text-align: left;
+}
+.com_laogoal_match_c .com_laogoal_match_team2 {
+	text-align: right;
+}
+.com_laogoal_match_c .com_laogoal_match_result {
+	text-align: center;
+	width: 18%;
+	font: normal bold 22px Arial, Helvetica, sans-serif;
+}
+
+.com_laogoal_match_item .com_laogoal_match_status {
+	padding-left: 5px;
+	text-align: left;
+}
+
+
+.com_laogoal_match_item .com_laogoal_match-events {
+	width: 99%;
+	margin: auto;
+}
+
+.com_laogoal_match-events tr {
+	border-top: 1px solid #eee;
+	height: 24px;
+}
+
+.com_laogoal_match-events .even {
+	background-color: #fafafa;
+}
+
+.com_laogoal_match-events .com_laogoal_event_minute {
+	width: 10px;
+	white-space: nowrap;
+}
+
+.com_laogoal_match-events .com_laogoal_event_score {
+	width: 10px;
+	white-space: nowrap;
+	padding: 0 10px;
+}
+
+.com_laogoal_match-events .com_laogoal_event_player {
+	width: 99%;
+	white-space: nowrap;
+}
+
+.com_laogoal_match-events .com_laogoal_event_player {
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.com_laogoal_match-events .com_laogoal_event-g .com_laogoal_event_player,
+.com_laogoal_match-events .com_laogoal_event-og .com_laogoal_event_player,
+.com_laogoal_match-events .com_laogoal_event-pg .com_laogoal_event_player {
+	background-image: url("../images/sl.gif");
+}
+
+.com_laogoal_match-events .com_laogoal_event-yc .com_laogoal_event_player {
+	background-image: url("../images/yellowcard.gif");
+}
+
+.com_laogoal_match-events .com_laogoal_event-yrc .com_laogoal_event_player {
+	background-image: url("../images/redcard.gif");
+}
+
+.com_laogoal_match-events .com_laogoal_event-rc .com_laogoal_event_player {
+	background-image: url("../images/redcard.gif");
+}
+
+.com_laogoal_match-events .com_laogoal_event_team0 .com_laogoal_event_player {
+	background-position: left 4px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.com_laogoal_match-events .com_laogoal_event_team1 .com_laogoal_event_player {
+	background-position: right 4px;
+	text-align: right;
+	padding-right: 20px;
+}

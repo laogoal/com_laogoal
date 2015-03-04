@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_LAOGOAL_MATCHES_VIEW_TITLE" option="COM_LAOGOAL_MATCHES_VIEW_OPTION">
+        <message>
+            <![CDATA[COM_LAOGOAL_MATCHES_VIEW_DESC]]>
+        </message>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request" label="COM_LAOGOAL_REQUEST_PARAMS_LABEL" addfieldpath="/components/com_laogoal/lib/forms/fields">
+            <field name="league" type="LeagueChoiceMatches" description="COM_LAOGOAL_SELECT_LEAGUE_DESC" label="COM_LAOGOAL_SELECT_LEAGUE_LABEL" />
+        </fieldset>
+    </fields>
+</metadata>
