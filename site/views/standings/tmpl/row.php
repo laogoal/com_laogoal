@@ -1,4 +1,11 @@
-<tr class="com_laogoal_standings_row
+<?php
+/**
+ * @package LaoGoaL component for Joomla 3
+ * @author Murat Erkenov (murat@11bits.net)
+ * @copyright (C) 2014 - Murat Erkenov
+ * @license     GNU General Public License version 2 or later; see license.txt
+ **/ defined( '_JEXEC' ) or die( 'Restricted access' );
+?><tr class="com_laogoal_standings_row
 	com_laogoal_standings_row_<?php echo $this->escape($this->item->team)?>
 	<?php if($this->even) :?>even<?php endif ?>">
 	<td class="com_laogoal_standings_row_position">

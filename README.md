@@ -19,7 +19,7 @@ COM\_LGL is a core of LaoGoaL.
 It provides interaction of your site with data provider. It allows perform activation of automatic updates and then handles all job to keep your site up to date with data provider. 
 Also it does all job related with data storing and retrieving. 
 It contains PHP API which can be used by other developers to work with data from LaoGoaL's tables. 
-COM\_LGL is in [this repo](https://github.com/elevenbits/com_lgl) 
+COM\_LGL is in [this repo](https://github.com/laogoal/com_lgl) 
 
 COM\_LAOGOAL is a component which was built in order to display LaoGoaL's data on site's pages. 
 It displays matches and standings. Matches are updated automatically without page reload.
@@ -31,25 +31,25 @@ What data comes with LaoGoaL
 ----------------------------
 Current version of LaoGoaL comes with data for top leagues of 5 countries: England, France, Germany, Italy and Spain. Each competition includes data about all matches (finished, live, scheduled) and standings tables for current season. 
 LaoGoaL's PHP API allows extaract following details about each match:
- * id
- * league id
- * hosts team
- * visitors team
- * score
- * match status [online, finished, not started, postponed]
- * status of live match [first or last half, current minute, etc...]
- * additional details [competition stage, round, matchday number, etc...]
- * events - list of events happened in match - goals, red/yellow cards with player name and minute when event happened
- * begintime - timestamp of kickoff time 
- * lastupdatetime - timestamp when data about match updated last time
+- id
+- league id
+- hosts team
+- visitors team
+- score
+- match status [online, finished, not started, postponed]
+- status of live match [first or last half, current minute, etc...]
+- additional details [competition stage, round, matchday number, etc...]
+- events - list of events happened in match - goals, red/yellow cards with player name and minute when event happened
+- begintime - timestamp of kickoff time 
+- lastupdatetime - timestamp when data about match updated last time
  
 ...and the following data about each standings row:
- * league id
- * team name
- * position 
- * points number
- * goals [scored and conceded]
- * matches [played, won, lost and finished in draw]
+- league id
+- team name
+- position 
+- points number
+- goals [scored and conceded]
+- matches [played, won, lost and finished in draw]
 
 Requirements and Installation
 -----------------------------
@@ -63,8 +63,14 @@ Open Components > LaoGoaL Component in admin (if you have `com_laogoal`) or just
 
 Support and collaboration
 -------------------------
-You can push your questions to support@laogoal.com. Most frequently and interesting questions and answers will be published on this page. 
-If you want extend this product anyway and you can fork Laogoals branches. I will look forward for your pull requests. 
+You can push your questions to 
+- [our forum at google groups](https://groups.google.com/forum/#!forum/laogoal)
+- open an issue https://github.com/laogoal/com_laogoal/issues  
+- our support email support@laogoal.com.
+
+Most frequently and interesting questions and answers will be published on this page. 
+
+If you want extend this product anyway, you can fork Laogoals branches. I will look forward for your pull requests. 
 
 
 
